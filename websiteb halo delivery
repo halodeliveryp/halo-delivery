@@ -1,6 +1,35 @@
-buat website
-ada daftar kedai
-dafar rider
-daftar user 
-dan info
-video
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halo Delivery Sabah</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; text-align: center; }
+        .container { max-width: 600px; margin: 50px auto; padding: 20px; background: white; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+        .icon { font-size: 40px; margin-bottom: 10px; }
+        .btn { display: inline-block; padding: 10px 20px; background: blue; color: white; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Halo Delivery Sabah</h1>
+        <p>Penghantaran makanan dan barangan dengan pantas dan selamat!</p>
+        <div>
+            <div class="icon">🏍️</div>
+            <h2>Cepat & Selamat</h2>
+            <p>Penghantaran laju dengan rider profesional.</p>
+        </div>
+        <div>
+            <div class="icon">📍</div>
+            <h2>Luas Jangkauan</h2>
+            <p>Kami beroperasi di seluruh Sabah.</p>
+        </div>
+        <div>
+            <div class="icon">☎️</div>
+            <h2>Sokongan 24/7</h2>
+            <p>Khidmat pelanggan yang sentiasa bersedia membantu.</p>
+        </div>
+        <a href="#" class="btn">Muat Turun Aplikasi</a>
+    </div>
+</body>
+</html>
